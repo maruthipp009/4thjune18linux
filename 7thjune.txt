@@ -1,133 +1,51 @@
-845  which   date
-  846  which   cal
-  847  which   mkdir
-  848  which   cp
-  849  which   reboot
-  850  x=10
-  851  echo  helo
-  852  echo  "helo"
-  853  echo  'helo'
-  854  x
-  855  x=10
-  856  echo  x
-  857  echo  $x
-  858  echo  $SHELL
-  859  echo  $USER
-  860  echo  $LANG
-  861  echo  $PATH
-  862  PATH=9999999999
-  863  date
-  864  cal
-  865  mkdir
-  866  PATH=/root/Desktop
-  867  date
-  868  cal
-  869  /usr/bin/cal 
-  870  cal
-  871  date
-  872  cal
-  873  exit
-  874  history 
-  875  echo  $HISTFILE
-  876  gedit   /root/.bash_history  
-  877  cat   /root/.bash_history
-  878  date
-  879  pwd
-  880  exit
-  881  pwd
-  882  ls
-  883  ls   -a
-  884  ls
-  885  ls   -a
-  886  date
-  887  pwd
-  888  uptime
-  889  tput  bold
-  890  tput  setab  3
-  891  clear
-  892  tput  setaf  2
-  893  skdjflkdhfgjghkjhkjljklpko;p
-  894  echo   $HISTSIZE
-  895  exit
-  896  cat   /root/.bash_history
-  897  cd   /root/
-  898  ls
-  899  ls  -a
-  900  cd  /root/
-  901  ls  -a
-  902  gedit    /root/.bashrc  
-  903  cat    /root/.bashrc  
-  904  script   -t    2> today.txt 
-  905  <<X
-  906    features  of bash 
-  907  i)  history  ii)  HISTSIZE
-  908  cd
-  909  scriptreplay   today.txt 
-  910  date
-  911  echo   hello
-  912  date 
-  913  cal   2018
-  914  date     >time.txt 
-  915  cat  time.txt 
-  916  cal      >time.txt 
-  917  cat  time.txt 
-  918  date      >> time.txt 
-  919  cat  time.txt 
-  920  dhgrfjghkhjl    >time.txt 
-  921  cat  time.txt 
-  922  >time.txt 
-  923  kdfkgfj   
-  924  kdfkgfj   2>  errot.txt
-  925  ksdfjsdkgfdh    2>  errot.txt
-  926  date     2>  errot.txt
-  927  sdkfgkdjlfhdg   2>outp.txt
-  928  date     2>outp.txt
-  929  cat  outp.txt 
-  930  date     2>>outp.txt
-  931  sdgdfhdfg    2>>outp.txt
-  932  date     2>>outp.txt
-  933  cat  outp.txt 
-  934  sdfgdgf    &>outp.txt
-  935  sdfgdgf    &> outp.txt
-  936  cal      &> outp.txt
-  937  cal      &>> outp.txt
-  938  sdfgdhg    &>> outp.txt
-  939  cal   |   wc  -c
-  940  cal   |  wc  -l
-  941  cal   |   wc  -l
-  942  cal   |   wc  -c
-  943  cal   |   wc  -w
-  944  cal   |   wc  
-  945  echo  hello  
-  946  echo  hello  |   wc  -w
-  947  echo  hello  |   wc  -c
-  948  echo  hello  |   wc  -l
-  949  echo  hello  |  festival   -tts 
-  950  echo  hello  |  festival   --tts 
-  951  date   |  festival   --tts 
-  952  cal    |  festival   --tts 
-  953  cal    |    mail   -s  "google"  ashutoshh@linux.com 
-  954  hostname
-  955  hostname  -i
-  956  vim /etc/resolv.conf 
-  957  ping www.google.com
-  958  ifconfig 
-  959  is
-  960  history 
-  961  cal  
-  962  cal    |   grep  3
-  963  cal    |   grep  Su
-  964  cal    |   grep  3
-  965  cal    |   grep  su
-  966  cal
-  967  cal    |   grep  -i  su
-  968  cal  
-  969  cal   |   head  -2
-  970  cal   |   tail    -2
-  971  cal
-  972  cal    |   head  -4  
-  973  cal    |   head  -4     |   tail  -1
-  974  cal
-  975  date
-  976  cal
+1200  ifconfig  
+ 1201  ifconfig    br0
+ 1202  ifconfig    br0   192.168.10.45
+ 1203  ifconfig    br0   
+ 1204  ifconfig    br0   192.168.8000
+ 1205  ifconfig    br0   
+ 1206  ifconfig    br0   4565879
+ 1207  ifconfig    br0   
+ 1208  ifconfig    br0   4294967297
+ 1209  ifconfig    br0   6789132
+ 1210  ifconfig    br0   
+ 1211  ifconfig    br0   678913288
+ 1212  ifconfig    br0   
+ 1213  ifconfig   br0   0
+ 1214  ifconfig   br0   
+ 1215  ifconfig   br0   0
+ 1216  ifconfig   br0   
+ 1217  dhclient  -v   br0
+ 1218  ifconfig   br0   
+ 1230  bc
+ 1231  ifconfig   br0   www.google.com  
+ 1232  ifconfig   br0   
+ 1233  ifconfig   br0   www.google.com  
+ 1234  ifconfig  br0  0
+ 1235  dhclient -v  br0
+ 1236  dhclient -r
+ 1237  dhclient -v  br0
+ 1238  ifconfig   br0   www.google.com  
+ 1239  ifconfig   br0   
+ 1240  ping  www.google.com
+ 1241  ifconfig   br0  0
+ 1242  dhclient  -v  br0
+ 1243  dhclient  -r
+ 1244  dhclient  -v  br0
+ 1245  ping  www.google.com
+ 1246  history 
+ 1247  ifconfig   br0  192.168.10.09   
+ 1248  ifconfig   br0  192.168.10.06
+ 1249  ifconfig   br0  192.168.10.08
+ 1250  ifconfig   br0  192.168.10.07
+ 1251  ifconfig   br0  
+ 1252  ifconfig   br0  0
+ 1253  ifconfig   br0  
+ 1254  history 
+ 1255  ifconfig  br0
+ 1256  dhclient -v  br0
+ 1257  dhclient -r
+ 1258  dhclient -v  br0
+ 1259  ifconfig br0
+ 1260  ping   2899943684
 
