@@ -1,0 +1,22 @@
+---
+ - hosts: all
+   tasks:
+  
+    - name: copying  java 8  to all the nodes 
+      copy: src=/root/jdk-8u121-linux-x64.rpm  dest=/root
+
+
+    - name: copying  hadoop2 tar  to all the nodes 
+      copy: src=/root/hadoop-2.7.3.tar.gz  dest=/root
+       
+    - name: installing java  
+      yum: name=/tmp/jdk-8u121-linux-x64.rpm  state=present 
+
+    - name: creating  target directory 
+      file: path=/hadoop2  state=directory
+
+    - name: installing  Hadoop v2
+      shell: tar -xvzf  /root/hadoop-2.7.3.tar.gz  
+
+
+

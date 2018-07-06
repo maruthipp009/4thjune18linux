@@ -1,0 +1,17 @@
+---
+ - hosts: nn
+   tasks:
+  
+
+    - name: setting  java path
+      copy: src=/root/.bashrc  dest=/root/.bashrc  
+
+    - name: hadoop env file 
+      copy: src=/hadoop2/etc/hadoop/hadoop-env.sh  dest=/hadoop2/etc/hadoop/hadoop-env.sh
+
+
+    - name: hadoop core site copy 
+      copy: src=/hadoop2/etc/hadoop/core-site.xml  dest=/hadoop2/etc/hadoop/core-site.xml
+
+    - name: copying  hdfs site file 
+      copy:  src=/hadoop2/etc/hadoop/hdfs-site.xml dest=/hadoop2/etc/hadoop/hdfs-site.xml
